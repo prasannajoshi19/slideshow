@@ -1,0 +1,54 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background-color: #122426;
+	font-family: Verdana;
+    font-size:14px;
+    overflow-y:hidden;
+}
+.container {
+	height: 100%;
+	width: 1000px;
+	clear: both;
+	margin: auto;
+	background-color: white;
+}
+#myDiv, #myDiv1 {
+	width: 400px;
+	height: 300px;
+	border: 1px solid;
+	float: left;
+	margin: 10px 300px;
+	padding: 15px 50px;
+	box-sizing: border-box;
+}
+.show_element {
+	float:left;
+	width: 100%;
+}
+.show_header, .show_caption {
+	line-height: 30px;
+	text-align: center;
+	height: 30px;
+	font-size:16px;
+}
+.show_image {
+	height: 180px;
+}
+.button {
+	height: 30px;
+	width: 80px;
+	background-color: #C4BCC3;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	border: 1px solid;
+	box-sizing: border-box;
+}
+.prev_button {
+	float: left;
+}
+.next_button {
+	float: right;
+}

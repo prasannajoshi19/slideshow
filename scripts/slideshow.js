@@ -1,6 +1,6 @@
 /*
 	CreateSlideshow() is a constructor function.
-	We define other methods in protype property of this function.
+	We define other methods in prototype property of this function.
 */
 function CreateSlideshow(id, data) {
     this.data = data;
